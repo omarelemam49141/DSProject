@@ -15,7 +15,7 @@ ActionAddEllipse::ActionAddEllipse(ApplicationManager* pApp) :Action(pApp)
 //Omar
 void ActionAddEllipse::Execute()
 {
-	Point P1, P2;
+	Point P1, P2, P3;
 
 	//Get a Pointer to the Interface
 	GUI* pGUI = pManager->GetGUI();
